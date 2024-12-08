@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles/blogs.css">
+</head>
+<body>
+    <div class="container">
+        <% for(var i=0; i<postNumber; i++) { %>
+            <a href="./blogpage/<%= i %>"><h1><%= blogHeadings[i] %></a></h1><br>
+        <% } %> 
+    </div>
+    
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> 
+<script src="/javascript/blogs.js"></script>
+</html>
+
+

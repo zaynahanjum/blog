@@ -1,0 +1,31 @@
+.entercontent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    width: 60%;
+}
+
+label {
+    font-family: "Poppins", system-ui;
+    font-weight: 900;
+    font-style: normal; 
+    font-size: 2rem;      
+}
+
+input {
+    width: 100%;
+    border-radius: 2rem;
+    border: solid #fff;
+}
+
+.title-text {
+    padding: 2rem 0rem;
+}
+
+.content-text {
+    padding: 7rem 0rem;
+}

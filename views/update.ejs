@@ -1,0 +1,20 @@
+<%- include("header.ejs") %>
+
+<div class="entercontent">
+    <form action="/blogs/<%= updateBlogNo %>?_method=PUT" method="post">
+        <div class="title">
+            <label for="title">Title : </label>
+            <br>
+            <input class="title-text" type="text" name="updatedTitle" value="<%= heading[updateBlogNo] %>">     
+        </div>
+        <br>
+        <div class="content">
+            <label for="title">Content : </label>
+            <br>
+            <input class="content-text" type="text" name="updatedContent" value="<%= content[updateBlogNo] %>">    
+        </div>
+        <br>
+        <button class="update">Update</button>
+    </form>
+        
+</div>
